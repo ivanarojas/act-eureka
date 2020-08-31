@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Eureka</title>
+</head>
+
+<body>
+	<h1>¿Adivina adivinador?</h1>
+	<h2>Intenta adivinar un número entre 1 y 11. Sólo tienes 3 intentos posibles.</h2>
+	<p>¿Cuál es tu nombre? <input type="text" id="nombre"></p>
+	<button onclick="jugar_ahora()">Jugar</button>
+	<script>
+		function jugar_ahora() {
+
+			var max = 11;
+			var min = 1;
+			var cant_intentos = 3;
+			var acerto = false;
+			var numero_aleatorio = Math.round(Math.random() * (max - min) + min);
+			var numero;
+
+		}
+
+	</script>
+
+</body>
+
+</html>
